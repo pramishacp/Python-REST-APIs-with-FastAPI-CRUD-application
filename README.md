@@ -2,6 +2,27 @@
 <p>
 </p>
 
+## Project Setup
+
+### Install
+```
+pipenv install fastapi uvicorn
+```
+
+### RUN
+```
+# The first app is the name of the file and the second one is the name of our application
+uvicorn app:app
+```
+### Test
+```
+http://localhost:8000
+```
+### Doc
+```
+http://localhost:8000/docs
+```
+
 ## Author
 
 👤 **Pramisha C P**
