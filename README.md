@@ -1,5 +1,6 @@
 <h1 align="center">Welcome to Python-REST-APIs-with-FastAPI-CRUD-application 👋</h1>
 <p>
+ CRUD application using Pyhon REST APIs with FastAPI 
 </p>
 
 ## Project Setup
@@ -8,10 +9,9 @@
 ```
 pipenv install fastapi uvicorn
 ```
-
 ### RUN
 ```
-# The first app is the name of the file and the second one is the name of our application
+# The first app is the name of the file and the second one is the name of our application app = FirstAPI
 uvicorn app:app
 ```
 ### Test
